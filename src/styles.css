@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+
+body {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  color: #fff;
+  background: #020946;
+  min-height: 125px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: #db5858 solid 3px;
+}
+
+nav {
+  margin-top: 2.5rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 20px 0 20px;
+}
+
+header .branding {
+  margin-top: 2rem;
+}
+
+header span {
+  color: #db5858;
+}
+
+nav a:hover {
+  color: #db5858;
+}
+
+nav a {
+  text-transform: uppercase;
+}
+
+/* showcase */
+
+.showcase {
+  background-image: url("https://images.pexels.com/photos/2148217/pexels-photo-2148217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.showcase h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.showcase p {
+  font-size: 1.5rem;
+}
+
+/* newsletter */
+
+.newsletter {
+  background: #020946;
+}
+
+.newsletter > * {
+  padding: 15px 0px;
+}
+
+.spacer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.newsletter h3 {
+  font-size: 2em;
+}
+
+.newsletter input {
+  padding: 10px;
+}
+
+.newsletter .button {
+  background: #db5858;
+  color: #fff;
+  border: none;
+  padding: 12px 15px;
+}
+
+/* boxes  */
+
+.boxes {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.boxes .container {
+  color: #333;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin: auto;
+}
+
+/* Footer */
+
+footer {
+  background: #db5858;
+  text-align: center;
+  font-size: 18px;
+  min-height: 5em;
+}
+
+footer p {
+  padding-top: 25px;
+}
+
+@media (max-width: 700px) {
+}
