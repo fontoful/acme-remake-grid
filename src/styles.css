@@ -153,4 +153,22 @@ footer p {
 }
 
 @media (max-width: 700px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5em;
+  }
+
+  /* newsletter */
+  .newsletter .button {
+    display: block;
+    width: 100%;
+  }
 }
